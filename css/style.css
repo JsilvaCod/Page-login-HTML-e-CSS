@@ -1,0 +1,99 @@
+body{
+    Font-family: 'roboto', sans-serif;
+    background-color: #461539;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: aquamarine;
+
+}
+
+#Login { 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.name input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+    margin-bottom: 15px;
+}
+
+.email input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+}
+
+.Senha input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+    margin-top: 15px;
+    
+}
+
+.Entrar input {
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(134, 243, 134);
+    color: #141414;
+
+}
+
+input::placeholder {
+    color: #b6b6b6; /* Cor do texto do placeholder */
+}
+ 
+h1{
+    color: #fafafa;
+}
+
+.caixa {
+    margin-top: 65px;
+
+}
+
+.caixa img{
+    width: 115px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.hello-kitty-img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
